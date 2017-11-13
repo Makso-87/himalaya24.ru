@@ -1,0 +1,142 @@
+/*Правила для всей страницы*/
+@font-face {
+	font-family: "Nokia_Sans_60";
+	src:url('../fonts/Nokia_Sans_S60_Regular.ttf');
+}
+
+@font-face {
+	font-family: "Nokia_Sans_60_bold";
+	src:url('../fonts/Nokia_Sans_S60.ttf');
+}
+
+body {
+	background: url(../images/background.jpg) center no-repeat;
+	background-size: cover;
+	font-family: Cuprum;
+	font-size: 14px;
+	line-height: 1.2;
+	color: #213554;
+}
+
+.container {
+	width: 90%;
+	text-align: center;
+}
+
+/*Правила для шапки сайта*/
+
+
+.header img {
+	margin: 35px auto 17px; 
+}
+
+/*Правила для основного контента */
+
+.main_content {
+	margin: 0 auto;
+	width: 50%;
+	width: 700px;
+}
+
+.main_content h2 {
+	font-size: 2.5em;
+	/*font-size: 35px;*/
+	font-family: Cuprum;
+	font-weight: bold;
+	margin-bottom: 35px; 
+}
+
+.main_content p:nth-child(3) {
+	font-size: 1.79em;
+	/*font-size: 25px;*/
+	color: #1d73bb;
+	margin-bottom: 35px;
+	font-style: italic;
+}
+
+.main_content p:nth-child(4) {
+	font-size: 1.43em;
+	/*font-size: 20px;*/
+}
+
+.main_content div:nth-child(5) a img{
+	margin: 30px auto 5px;
+}
+
+.main_content div:nth-child(1) img{
+	margin: 60px auto 40px;
+}
+
+/*Правила для линии-разделителя*/
+
+.string img{
+	margin: 0px auto 69px;
+}
+
+
+/*Правила для нижней части контента*/
+
+.content_bottom {
+	margin: 0 auto;
+	width: 65%;
+	width: 800px;
+}
+
+.content_bottom p:nth-child(1){
+	font-style: italic;
+	font-size: 1.575em;
+	/*font-size: 22px;*/
+	margin-bottom: 49px;
+}
+
+.content_bottom p:nth-child(2){
+	font-size: 1.79em;
+	/*font-size: 25px;*/
+}
+
+.content_bottom p:nth-child(3){
+	font-style: bold;
+	font-size: 2.5em;
+	/*font-size: 35px;*/
+}
+
+/*Правила для части контанта со штампом*/
+
+.stamp {
+	float: left;
+}
+
+.club {
+	width: 650px;
+	margin: 20px auto 0;
+}
+
+.club img {
+
+	margin-right: 20px;
+}
+
+.club p {
+	font-size: 1.79em;
+	/*font-size: 25px;*/
+	padding-top: 60px;
+	font-style: italic;
+}
+.club a {
+	color: #961cf1;
+	text-decoration: underline;
+}
+
+/*Правила для подвала*/
+
+footer p {
+	font-size: 0.86em;
+	/*font-size: 12px;*/
+	margin: 75px 0 50px;
+	color: #fff;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
